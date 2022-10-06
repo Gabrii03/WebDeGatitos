@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <title>Page Title</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+        .container img{
+            width: 100px;
+            border-radius: 10px;
+            margin: auto;
+            /*https://getcssscan.com/css-box-shadow-examples*/
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+        }
+        h2 {
+            /*https://www.cssportal.com/css-text-gradient-generator/*/
+            background: #121FCF;
+            background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .text{
+            text-transform: uppercase;
+            background: #25CC0F;
+            background: linear-gradient(to bottom right, #25CC0F 0%, #9E3212 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        img{
+            margin: auto;
+        }
+    </style>
+
+</head>
+<body>
+    <h2 class="text">La mejor web de gatos bebe</h2>
+    <div class="container">
+    <img src="gatito1.jfif"/>
+    <img src="gatito2.jfif"/>
+    <img src="gatito3.jfif"/>
+    </div>
+    
+</body>
+</html>
